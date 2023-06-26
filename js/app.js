@@ -3,11 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const handleForSubmit = (event) => {
     event.preventDefault();
-    console.log(event);
-    console.log(event.target.title.value);
-    console.log(event.target.author.value);
-    console.log(event.target.category.value);
-
+ 
     const title = document.createElement('h1');
     title.textContent = `${event.target.title.value}`;
 
